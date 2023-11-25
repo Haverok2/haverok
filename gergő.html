@@ -11,7 +11,7 @@
             line-height: 1.6;
             background-color: #f8f8f8;
             color: #333;
-            margin: 10px;
+            margin: 20px;
         }
 
         ul {
@@ -21,7 +21,7 @@
         }
 
         li {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         h2 {
@@ -29,10 +29,16 @@
         }
 
         .uploaded-photo img, video {
-            max-width: 50%;
+            max-width: 100%;
             height: auto;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer; /* Hozzáadott kurzor változtatás */
+            transition: transform 0.3s; /* Átmeneti animáció a transzformációhoz */
+        }
+
+        .uploaded-photo img:hover {
+            transform: scale(1.2); /* Kicsinyített méret a hover eseményre */
         }
     </style>
 </head>
