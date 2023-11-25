@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feltöltött Fotók</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        #uploaded-photos {
+            max-width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .uploaded-photo {
+            margin-bottom: 10px;
+        }
+
+        .uploaded-photo img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <section id="uploaded-photos">
+        <!-- Itt listázd ki a feltöltött fotókat -->
+        <!-- Példa: Minden fotó egy-egy képpel rendelkező div -->
+        <form action="főolad.html" method="post" enctype="multipart/form-data"></form>
+        <div class="uploaded-photo">
+            <img src="gergő HTML.jpg" alt="Felnött fotó 1">
+            <p>Fotó leírása vagy dátuma</p>
+        </div>
+
+        <div class="uploaded-photo">
+            <img src="gergő 3.jpg" alt="Feltöltött fotó 2">
+            <p>Fotó leírása vagy dátuma</p>
+        </div>
+        <!-- További feltöltött fotók... -->
+    </section>
+</body>
+</html>
