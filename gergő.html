@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tartalom Listája</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        .uploaded-photo img, video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <section id="content-list">
+        <h2>Fényképek</h2>
+        <ul>
+            <li><img src="gergő 2 .jpg" alt="Fénykép 1"><p>Fénykép leírása vagy dátuma</p></li>
+            <li><img src="gergő 3.jpg" alt="Fénykép 2"><p>Fénykép leírása vagy dátuma</p></li>
+            <li><img src="gergő.html" alt="Fénykép 3"><p>Fénykép leírása vagy dátuma</p></li>
+        </ul>
+
+        <h2>Videók</h2>
+        <ul>
+            <li>
+                <video width="400" controls>
+                    <source src="video1.mp4" type="video/mp4">
+                    A böngésző nem támogatja a videó lejátszását.
+                </video>
+                <p>Videó leírása vagy dátuma</p>
+            </li>
+            <li>
+                <video width="400" controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    A böngésző nem támogatja a videó lejátszását.
+                </video>
+                <p>Videó leírása vagy dátuma</p>
+            </li>
+            <li>
+                <video width="400" controls>
+                    <source src="video3.mp4" type="video/mp4">
+                    A böngésző nem támogatja a videó lejátszását.
+                </video>
+                <p>Videó leírása vagy dátuma</p>
+            </li>
+        </ul>
+    </section>
+
+</body>
+</html>
